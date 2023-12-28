@@ -23,6 +23,8 @@
 		5C2F52B12B3D12910090F301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C2F52B02B3D12910090F301 /* Assets.xcassets */; };
 		5C2F52B52B3D12910090F301 /* WeatherWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5C2F52A12B3D128F0090F301 /* WeatherWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		5C2F52BB2B3D16D70090F301 /* WeatherDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2F52BA2B3D16D70090F301 /* WeatherDetailView.swift */; };
+		5C2F52BD2B3D32A30090F301 /* WheatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2F52BC2B3D32A30090F301 /* WheatherData.swift */; };
+		5C2F52BE2B3D32A30090F301 /* WheatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2F52BC2B3D32A30090F301 /* WheatherData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +87,7 @@
 		5C2F52B02B3D12910090F301 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C2F52B22B3D12910090F301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C2F52BA2B3D16D70090F301 /* WeatherDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailView.swift; sourceTree = "<group>"; };
+		5C2F52BC2B3D32A30090F301 /* WheatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +153,7 @@
 				5C2F52722B3D12090090F301 /* WidgetDemoApp.swift */,
 				5C2F52742B3D12090090F301 /* ContentView.swift */,
 				5C2F52BA2B3D16D70090F301 /* WeatherDetailView.swift */,
+				5C2F52BC2B3D32A30090F301 /* WheatherData.swift */,
 				5C2F52762B3D120B0090F301 /* Assets.xcassets */,
 				5C2F52782B3D120B0090F301 /* WidgetDemo.entitlements */,
 				5C2F52792B3D120B0090F301 /* Preview Content */,
@@ -368,6 +372,7 @@
 				5C2F52752B3D12090090F301 /* ContentView.swift in Sources */,
 				5C2F52732B3D12090090F301 /* WidgetDemoApp.swift in Sources */,
 				5C2F52BB2B3D16D70090F301 /* WeatherDetailView.swift in Sources */,
+				5C2F52BD2B3D32A30090F301 /* WheatherData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +400,7 @@
 				5C2F52A92B3D12900090F301 /* WeatherWidgetBundle.swift in Sources */,
 				5C2F52AF2B3D12900090F301 /* AppIntent.swift in Sources */,
 				5C2F52AB2B3D12900090F301 /* WeatherWidgetLiveActivity.swift in Sources */,
+				5C2F52BE2B3D32A30090F301 /* WheatherData.swift in Sources */,
 				5C2F52AD2B3D12900090F301 /* WeatherWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
