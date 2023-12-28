@@ -35,8 +35,8 @@ struct WeatherDetailView: View {
     }
 }
 
-#Preview {
-    WeatherDetailView(
-        weather: WeatherType(name: "Thunder Storms", icon: "cloud.bolt")
-        )
-}
+//#Preview {
+//    WeatherDetailView(
+//        weather: WeatherType(name: "Thunder Storms", icon: "cloud.bolt")
+//        )
+//}
