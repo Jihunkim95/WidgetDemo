@@ -16,3 +16,29 @@ struct WeatherEntry: TimelineEntry {
     let icon: String
     let image: String
 }
+
+// 실시간 날씨 데이터에 접근하지 않고 샘플 날씨 엔트리 타임라인을 준비
+// Date() 현재 날짜 시간으로 채움
+let londonTimeline = [
+    WeatherEntry(date: Date(), city: "London", temperature: 87,
+          description: "Hail Storm", icon: "cloud.hail",
+                image: "hail"),
+    WeatherEntry(date: Date(), city: "London", temperature: 92,
+          description: "Thunder Storm", icon: "cloud.bolt.rain",
+                image: "thunder"),
+    WeatherEntry(date: Date(), city: "London", temperature: 95,
+          description: "Hail Storm", icon: "cloud.hail",
+                image: "hail")
+]
+
+let miamiTimeline = [
+    WeatherEntry(date: Date(), city: "Miami", temperature: 81,
+          description: "Thunder Storm", icon: "cloud.bolt.rain",
+                image: "thunder"),
+    WeatherEntry(date: Date(), city: "Miami", temperature: 74,
+          description: "Tropical Storm", icon: "tropicalstorm",
+                image: "tropical"),
+    WeatherEntry(date: Date(), city: "Miami", temperature: 72,
+          description: "Thunder Storm", icon: "cloud.bolt.rain",
+                image: "thunder")
+]
